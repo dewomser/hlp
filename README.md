@@ -1,5 +1,6 @@
 # hlp
 ## This is a fork of version https://github.com/bit101/version
+[![Build Status](https://travis-ci.org/dewomser/hlp.svg?branch=master)](https://travis-ci.org/dewomser/hlp)
 
 What shows hlp ___?
 
