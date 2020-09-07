@@ -6,9 +6,9 @@ To add a tool to the list of tools, prefix the tool name with `tools_` and add t
 
 Example:
 
-For a tool named `foo` with a version argument of `--version` write:
+For a tool named `foo` with a version argument of `--help` write:
 
-`tools_foo=--version`
+`tools_foo=--help`
 
 Please make sure to insert it alphabetically within the existing list.
 
@@ -16,9 +16,9 @@ If the tool has a hyphen `-` character in its name, substitute an underscore `_`
 
 Example:
 
-A tool named `foo-bar` becomes `tools_foo_bar` in the list. Typing `version foo-bar` will work as expected.
+A tool named `foo-bar` becomes `tools_foo_bar` in the list. Typing `hlp foo-bar` will work as expected.
 
-If the argument is not `-v`, `-V`, `version`, `-version`, or `--version` then I'll definitely need to verify it. A link to an official man page would help.
+If the argument is not `-h`, or `--help` then I'll definitely need to verify it. A link to an official man page would help.
 
 ## Alternately...
 
