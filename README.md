@@ -1,5 +1,5 @@
 # hlp
-## This is a fork from version https://github.com/bit101/version
+## This is a fork of version https://github.com/bit101/version
 
 What shows hlp ___?
 
