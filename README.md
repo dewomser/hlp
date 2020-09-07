@@ -1,7 +1,7 @@
 # hlp
 
 
-What shows help ___?
+What shows hlp ___?
 
 You've been there...
 
