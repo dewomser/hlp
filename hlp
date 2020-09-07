@@ -1,4 +1,5 @@
 #! /bin/bash 
+# hlp is a fork of version https://github.com/bit101/version
 
 ver="v0.0.1"
 
@@ -79,6 +80,6 @@ then
   exit
 fi
 
-# success. make the call to display the version.
+# success. make the call to display help.
 $1 $hlp_arg
 
