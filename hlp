@@ -38,7 +38,7 @@ fi
 # Display recognized program count
 if [ $1 == -c ]
 then
-  count=$(egrep -o "^tools_" $(which hlp) | wc -l)
+  count=$(grep -E -o "^tools_" $(which hlp) | wc -l)
   echo "I know how to find the helps
   of $count programs!"
   exit
@@ -54,7 +54,7 @@ fi
 # Display all the tools we know
 if [ $1 == -l ]
 then
-  egrep -o "^tools_[^=]*" $(which hlp) | grep -oP "tools_\K(.*)"
+  grep -E -o "^tools_[^=]*" $(which hlp) | grep -oP "tools_\K(.*)"
   exit
 fi
 
